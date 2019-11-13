@@ -19,44 +19,6 @@ out = cv2.VideoWriter(outn, frc, 25.0, (wid*2, hgt), 1)
 
 page_initialization = Page(-1, gaze, webcam, out)
 gaze.set_clf(page_initialization.initialization())
-# x = []
-# y = []
-#
-# data_size = 150
-#
-# horizontal = pd.read_csv('trained_models/dict_horizontal.csv', sep=',', header=None).values
-# vertical = pd.read_csv('trained_models/dict_vertical.csv', sep=',', header=None).values
-# for i in range(6):
-#     x = horizontal[i][1:]
-#     y = vertical[i][1:]
-#     xy = np.concatenate((np.array(x).reshape(data_size, 1), np.array(y).reshape(data_size, 1)), axis = 1)
-#     if i>0:
-#         data = np.concatenate((data, xy), axis = 0)
-#     else: data = xy
-#
-# horizontal = pd.read_csv('trained_models/dict_horizontal.csv', sep=',', header=None).values
-# vertical = pd.read_csv('trained_models/dict_vertical.csv', sep=',', header=None).values
-# for i in range(6):
-#     x = horizontal[i][1:]
-#     y = vertical[i][1:]
-#     xy = np.concatenate((np.array(x).reshape(data_size, 1), np.array(y).reshape(data_size, 1)), axis = 1)
-#     if i>0:
-#         data_test = np.concatenate((data_test, xy), axis=0)
-#     else: data_test = xy
-# data = np.concatenate((data, data_test), axis = 0)
-# y = np.zeros((6*data_size,1))
-# for i in range(6):
-#     y[i*data_size:(i+1)*data_size] = i
-# y2 = np.zeros((6*data_size,1))
-# for i in range(6):
-#     y2[i*data_size:(i+1)*data_size] = i
-# y = np.concatenate((y, y2))
-# y = np.ravel(y)
-#
-# clf = SVC(decision_function_shape='ovo')
-# clf.fit(data, y)
-#
-# gaze.set_clf(clf)
 
 pages = [Page(0, gaze, webcam), Page(1, gaze, webcam), Page(2, gaze, webcam), Page(3, gaze, webcam),
          Page(4, gaze, webcam), Page(5, gaze, webcam), Page(6, gaze, webcam), Page(7, gaze, webcam),
