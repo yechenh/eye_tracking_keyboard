@@ -4,8 +4,7 @@
 
 
 # Description
-This is a Python program intended to facilitate the communication of ALS patients. The program tracks eye movements and uses a special keyboard to output wor\
-ds.
+This is a Python program intended to facilitate the communication of ALS patients. The program tracks eye movements and uses a special keyboard to output words.
 
 
 # Installation
