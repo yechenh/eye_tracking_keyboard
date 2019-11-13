@@ -1,6 +1,6 @@
 # Unfreeze the Frozen World - An Eyetracking Keyboard for ALS
 # HackPrinceton 2020
-# Bowei Liu, Ruohui Cui, Yechen Hu
+# Yechen Hu, Bowei Liu, Ruohui Cui
 
 
 # Description
