@@ -33,6 +33,8 @@ close your eyes for several seconds and then open.
 ## calibration
 The program begins in the calibration phase. Look in the direction indicated on the screen. Try to hold your gaze steadily.
 
+# Video Demo
+https://www.youtube.com/channel/UC6J_sy10H0jOf4xEd54yFwQ?view_as=subscriber
 
 # Acknowledgement
 Part of this project is based on the GazeTracking project by Antoine Lamé (https://github.com/antoinelame/GazeTracking.git).
